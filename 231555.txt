@@ -88,3 +88,58 @@ git commit -m "Implement Count Tasks per Category"
 edinbekiroski@Edins-MacBook-Pro -SI_2025_lab1_231555 % git push origin 7-count-tasks-per-category
 Enumerating objects: 7, done.
 
+
+it clone https://github.com/Edoo351/SI_2025_lab1_151020.git   
+Cloning into 'SI_2025_lab1_151020'...
+remote: Enumerating objects: 26, done.
+remote: Counting objects: 100% (26/26), done.
+remote: Compressing objects: 100% (19/19), done.
+remote: Total 26 (delta 7), reused 20 (delta 4), pack-reused 0 (from 0)
+Receiving objects: 100% (26/26), 5.56 KiB | 2.78 MiB/s, done.
+Resolving deltas: 100% (7/7), done.
+
+
+touch 231555.txt  
+nano 231555.txt
+
+git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	231555.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+git add .
+edinbekiroski@Edins-MacBook-Pro SI_2025_lab1_151020 % git commit -m "Add file"
+[master 0162fdb] Add file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 231555.txt
+
+
+git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 271 bytes | 271.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Edoo351/SI_2025_lab1_151020.git
+   bb2576c..0162fdb  master -> master
+
+
+git checkout master
+
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+
+
+git pull origin master
+
+From https://github.com/Edoo351/SI_2025_lab1_151020
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
