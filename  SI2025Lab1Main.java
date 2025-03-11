@@ -65,6 +65,13 @@ class TaskManager {
     // 1. Remove a task by name
     public void removeTask(String name) {
         // TODO: Implement removal logic
+        boolean removed = tasks.removeIf(task -> task.getName().equals(name));
+      if (removed) {
+         System.out.println("Task '" + name + "' removed successfully.");
+          } else {
+        System.out.println("Task '" + name + "' not found.");
+        }
+
     }
 
     // 2. Find all completed tasks
@@ -86,6 +93,8 @@ class TaskManager {
     // 5. Filter tasks by category
     public List<Task> filterByCategory(String category) {
         // TODO: Implement filtering logic
+            return tasks.stream()
+                .filter(task -> task.getCategory().equalsIgnoreCase(category)).toList();
         return new ArrayList<>();
     }
 
