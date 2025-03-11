@@ -98,6 +98,10 @@ class TaskManager {
     // 7. Count tasks per category
     public Map<String, Integer> countTasksPerCategory() {
         // TODO: Implement counting logic
+        return tasks.stream() .collect(Collectors.groupingBy(
+                Task::getCategory, // Групирање по категорија
+                Collectors.summingInt(task -> 1) // Пребројување на задачите во секоја категорија
+        ));
         return new HashMap<>();
     }
 
