@@ -65,6 +65,13 @@ class TaskManager {
     // 1. Remove a task by name
     public void removeTask(String name) {
         // TODO: Implement removal logic
+        boolean removed = tasks.removeIf(task -> task.getName().equals(name));
+      if (removed) {
+         System.out.println("Task '" + name + "' removed successfully.");
+          } else {
+        System.out.println("Task '" + name + "' not found.");
+        }
+
     }
 
     // 2. Find all completed tasks

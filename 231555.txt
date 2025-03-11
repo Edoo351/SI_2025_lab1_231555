@@ -30,31 +30,4 @@ Changes not staged for commit:
 	modified:    SI2025Lab1Main.java
 	modified:   231555.txt
 
-git commit -m "Implement Remove a task by name "
-[1-remove-a-task-by-name 5299528] Implement Remove a task by name
- 2 files changed, 40 insertions(+)
-
-git push origin 1-remove-a-task-by-name 
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 912 bytes | 912.00 KiB/s, done.
-Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To https://github.com/Edoo351/-SI_2025_lab1_231555.git
-   16a2930..5299528  1-remove-a-task-by-name -> 1-remove-a-task-by-name
-
-
-git add .    
-edinbekiroski@Edins-MacBook-Pro -SI_2025_lab1_231555 % git commit -m "Zacuvaj Promeni 231555.txt"
-[1-remove-a-task-by-name bf97a51] Zacuvaj Promeni 231555.txt
-
-
-
-
-git checkout 5-filter-tasks-by-category
-
-branch '5-filter-tasks-by-category' set up to track 'origin/5-filter-tasks-by-category'.
-Switched to a new branch '5-filter-tasks-by-category'
 
