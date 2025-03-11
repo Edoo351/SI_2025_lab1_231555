@@ -31,3 +31,10 @@ Changes not staged for commit:
 	modified:   231555.txt
 
 
+git commit -m "Implement Count Tasks per Category" 
+[7-count-tasks-per-category c99c514] Implement Count Tasks per Category
+ 2 files changed, 87 insertions(+)
+
+edinbekiroski@Edins-MacBook-Pro -SI_2025_lab1_231555 % git push origin 7-count-tasks-per-category
+Enumerating objects: 7, done.
+
